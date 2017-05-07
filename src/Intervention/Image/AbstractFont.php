@@ -46,6 +46,8 @@ abstract class AbstractFont
      */
     public $valign;
 
+    public $underColor;
+
     /**
      * Path to TTF or GD library internal font file of the text
      *
