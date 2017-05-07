@@ -204,6 +204,19 @@ abstract class AbstractFont
     }
 
     /**
+     * Set background
+     *
+     * @param  string $underColor
+     * @return void
+     */
+    public function underColor($underColor)
+    {
+        $this->underColor = $underColor;
+
+        return $this;
+    }
+
+    /**
      * Get vertical text alignment
      *
      * @return string
